@@ -1,9 +1,0 @@
-{
-  "scripts": {
-    "build": "netlify-lambda build ./src/functions",
-    "start": "netlify-lambda serve ./src/functions"
-  },
-  "dependencies": {
-    "netlify-lambda": "^2.0.3"
-  }
-}
