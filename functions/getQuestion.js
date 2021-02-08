@@ -360,6 +360,9 @@ exports.handler = (event, context, callback) => {
     callback(null, {
       statusCode: 200,
       body: JSON.stringify(res),
+      headers: {
+        "access-control-allow-origin": "*",
+      },
     });
   } catch (error) {
     console.log(error);
